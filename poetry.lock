@@ -945,14 +945,14 @@ type = ["pytest-mypy"]
 
 [[package]]
 name = "iniconfig"
-version = "2.0.0"
+version = "2.1.0"
 description = "brain-dead simple config-ini parsing"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 groups = ["dev"]
 files = [
-    {file = "iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374"},
-    {file = "iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3"},
+    {file = "iniconfig-2.1.0-py3-none-any.whl", hash = "sha256:9deba5723312380e77435581c6bf4935c94cbfab9b1ed33ef8d238ea168eb760"},
+    {file = "iniconfig-2.1.0.tar.gz", hash = "sha256:3abbd2e30b36733fee78f9c7f7308f2d0050e88f0087fd25c2645f63c773e1c7"},
 ]
 
 [[package]]
@@ -1636,20 +1636,20 @@ xmp = ["defusedxml"]
 
 [[package]]
 name = "platformdirs"
-version = "4.3.6"
+version = "4.3.7"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 groups = ["docs", "lint"]
 files = [
-    {file = "platformdirs-4.3.6-py3-none-any.whl", hash = "sha256:73e575e1408ab8103900836b97580d5307456908a03e92031bab39e4554cc3fb"},
-    {file = "platformdirs-4.3.6.tar.gz", hash = "sha256:357fb2acbc885b0419afd3ce3ed34564c13c9b95c89360cd9563f73aa5e2b907"},
+    {file = "platformdirs-4.3.7-py3-none-any.whl", hash = "sha256:a03875334331946f13c549dbd8f4bac7a13a50a895a0eb1e8c6a8ace80d40a94"},
+    {file = "platformdirs-4.3.7.tar.gz", hash = "sha256:eb437d586b6a0986388f0d6f74aa0cde27b48d0e3d66843640bfb6bdcdb6e351"},
 ]
 
 [package.extras]
-docs = ["furo (>=2024.8.6)", "proselint (>=0.14)", "sphinx (>=8.0.2)", "sphinx-autodoc-typehints (>=2.4)"]
-test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=8.3.2)", "pytest-cov (>=5)", "pytest-mock (>=3.14)"]
-type = ["mypy (>=1.11.2)"]
+docs = ["furo (>=2024.8.6)", "proselint (>=0.14)", "sphinx (>=8.1.3)", "sphinx-autodoc-typehints (>=3)"]
+test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=8.3.4)", "pytest-cov (>=6)", "pytest-mock (>=3.14)"]
+type = ["mypy (>=1.14.1)"]
 
 [[package]]
 name = "pluggy"
@@ -1943,26 +1943,24 @@ files = [
 
 [[package]]
 name = "pyobjc-framework-cocoa"
-version = "10.3.2"
+version = "11.0"
 description = "Wrappers for the Cocoa frameworks on macOS"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 groups = ["main"]
 markers = "sys_platform == \"darwin\""
 files = [
-    {file = "pyobjc_framework_Cocoa-10.3.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:61f44c2adab28fdf3aa3d593c9497a2d9ceb9583ed9814adb48828c385d83ff4"},
-    {file = "pyobjc_framework_Cocoa-10.3.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:7caaf8b260e81b27b7b787332846f644b9423bfc1536f6ec24edbde59ab77a87"},
-    {file = "pyobjc_framework_Cocoa-10.3.2-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:c49e99fc4b9e613fb308651b99d52a8a9ae9916c8ef27aa2f5d585b6678a59bf"},
-    {file = "pyobjc_framework_Cocoa-10.3.2-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:f1161b5713f9b9934c12649d73a6749617172e240f9431eff9e22175262fdfda"},
-    {file = "pyobjc_framework_Cocoa-10.3.2-cp313-cp313t-macosx_10_13_universal2.whl", hash = "sha256:08e48b9ee4eb393447b2b781d16663b954bd10a26927df74f92e924c05568d89"},
-    {file = "pyobjc_framework_Cocoa-10.3.2-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:7faa448d2038ae0e0287a326d390002e744bb6470e45995e2dbd16c892e4495a"},
-    {file = "pyobjc_framework_Cocoa-10.3.2-cp38-cp38-macosx_11_0_universal2.whl", hash = "sha256:fcd53fee2be9708576617994b107aedc2c40824b648cd51e780e8399c0a447b6"},
-    {file = "pyobjc_framework_Cocoa-10.3.2-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:838fcf0d10674bde9ff64a3f20c0e188f2dc5e804476d80509b81c4ac1dabc59"},
-    {file = "pyobjc_framework_cocoa-10.3.2.tar.gz", hash = "sha256:673968e5435845bef969bfe374f31a1a6dc660c98608d2b84d5cae6eafa5c39d"},
+    {file = "pyobjc_framework_Cocoa-11.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:fbc65f260d617d5463c7fb9dbaaffc23c9a4fabfe3b1a50b039b61870b8daefd"},
+    {file = "pyobjc_framework_Cocoa-11.0-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:3ea7be6e6dd801b297440de02d312ba3fa7fd3c322db747ae1cb237e975f5d33"},
+    {file = "pyobjc_framework_Cocoa-11.0-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:280a577b83c68175a28b2b7138d1d2d3111f2b2b66c30e86f81a19c2b02eae71"},
+    {file = "pyobjc_framework_Cocoa-11.0-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:15b2bd977ed340074f930f1330f03d42912d5882b697d78bd06f8ebe263ef92e"},
+    {file = "pyobjc_framework_Cocoa-11.0-cp313-cp313t-macosx_10_13_universal2.whl", hash = "sha256:5750001db544e67f2b66f02067d8f0da96bb2ef71732bde104f01b8628f9d7ea"},
+    {file = "pyobjc_framework_Cocoa-11.0-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:ddff25b0755d59873d186e1e07d6aaddb19d55e3ae890d69ff2d9babf8627657"},
+    {file = "pyobjc_framework_cocoa-11.0.tar.gz", hash = "sha256:00346a8cb81ad7b017b32ff7bf596000f9faa905807b1bd234644ebd47f692c5"},
 ]
 
 [package.dependencies]
-pyobjc-core = ">=10.3.2"
+pyobjc-core = ">=11.0"
 
 [[package]]
 name = "pyparsing"
@@ -2477,19 +2475,19 @@ files = [
 
 [[package]]
 name = "setuptools"
-version = "76.1.0"
+version = "77.0.3"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 optional = false
 python-versions = ">=3.9"
 groups = ["docs", "packaging"]
 files = [
-    {file = "setuptools-76.1.0-py3-none-any.whl", hash = "sha256:34750dcb17d046929f545dec9b8349fe42bf4ba13ddffee78428aec422dbfb73"},
-    {file = "setuptools-76.1.0.tar.gz", hash = "sha256:4959b9ad482ada2ba2320c8f1a8d8481d4d8d668908a7a1b84d987375cd7f5bd"},
+    {file = "setuptools-77.0.3-py3-none-any.whl", hash = "sha256:67122e78221da5cf550ddd04cf8742c8fe12094483749a792d56cd669d6cf58c"},
+    {file = "setuptools-77.0.3.tar.gz", hash = "sha256:583b361c8da8de57403743e756609670de6fb2345920e36dc5c2d914c319c945"},
 ]
 
 [package.extras]
 check = ["pytest-checkdocs (>=2.4)", "pytest-ruff (>=0.2.1)", "ruff (>=0.8.0)"]
-core = ["importlib_metadata (>=6)", "jaraco.collections", "jaraco.functools (>=4)", "jaraco.text (>=3.7)", "more_itertools", "more_itertools (>=8.8)", "packaging", "packaging (>=24.2)", "platformdirs (>=4.2.2)", "tomli (>=2.0.1)", "wheel (>=0.43.0)"]
+core = ["importlib_metadata (>=6)", "jaraco.functools (>=4)", "jaraco.text (>=3.7)", "more_itertools", "more_itertools (>=8.8)", "packaging (>=24.2)", "platformdirs (>=4.2.2)", "tomli (>=2.0.1)", "wheel (>=0.43.0)"]
 cover = ["pytest-cov"]
 doc = ["furo", "jaraco.packaging (>=9.3)", "jaraco.tidelift (>=1.4)", "pygments-github-lexers (==0.0.5)", "pyproject-hooks (!=1.1)", "rst.linker (>=1.9)", "sphinx (>=3.5)", "sphinx-favicon", "sphinx-inline-tabs", "sphinx-lint", "sphinx-notfound-page (>=1,<2)", "sphinx-reredirects", "sphinxcontrib-towncrier", "towncrier (<24.7)"]
 enabler = ["pytest-enabler (>=2.2)"]
@@ -3095,4 +3093,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<3.14"
-content-hash = "f8d3b51d58787b15496ff85aa60b12e008df8a033178c1d441037201c330efd1"
+content-hash = "6978215cfb5d46f31cbe898c1ff1ff102f749bcbe6d25a591a93b0ad72d27bac"
