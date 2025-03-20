@@ -16,6 +16,7 @@ from gaphor.core.modeling import (
 )
 from gaphor.diagram.drop import drop
 from gaphor.diagram.event import DiagramClosed, DiagramOpened, DiagramSelectionChanged
+from gaphor.diagram.group import owner
 from gaphor.event import ActionEnabled, Notification
 from gaphor.i18n import gettext, translated_ui_string
 from gaphor.transaction import Transaction
@@ -349,7 +350,7 @@ class Diagrams(UIComponent, ActionProvider):
         diagrams = [self.element_factory.lookup(id) for id in diagram_ids]
         if not any(diagrams):
             diagrams = self.element_factory.select(
-                lambda e: e.isKindOf(Diagram) and not (e.owner and e.owner.owner)
+                lambda e: e.isKindOf(Diagram) and not ((o := owner(e)) and owner(o))
             )
         for diagram in diagrams:
             if diagram:
