@@ -206,6 +206,8 @@ jobs:
         uses: ./.github/actions/install
         with:
           python-command: python${{ env.python_version }}
+        env:
+          DYLD_LIBRARY_PATH: /opt/homebrew/lib
       - name: Run Gaphor Self-Test
         run: poetry run gaphor self-test || poetry run gaphor self-test
       - name: Run Gaphor Tests
